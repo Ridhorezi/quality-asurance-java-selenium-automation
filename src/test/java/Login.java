@@ -1,4 +1,4 @@
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import config.env_target;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
