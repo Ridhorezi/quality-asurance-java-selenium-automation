@@ -52,4 +52,22 @@ public class Login extends env_target{
         //Set Quit
         driver.quit();
     }
+
+    @When("User fill invalid username and password")
+    public void userFillInvalidUsernameAndPassword() {
+        driver.findElement(By.name("user-name")).sendKeys("wrong_username");
+        driver.findElement(By.name("password")).sendKeys("wrong_password");
+    }
+
+    @Then("User get error message")
+    public void userGetErrorMessage() {
+        //Set duration
+        Duration duration = Duration.ofSeconds(10);
+        WebDriverWait wait = new WebDriverWait(driver, duration);
+        wait.until(
+                ExpectedConditions.visibilityOfElementLocated(By.className("error-button"))
+        );
+        //Set Quit
+        driver.quit();
+    }
 }
