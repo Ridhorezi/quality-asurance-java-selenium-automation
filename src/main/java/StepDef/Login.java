@@ -70,4 +70,28 @@ public class Login extends env_target{
         //Set Quit
         driver.quit();
     }
+
+    @When("^User input (.*) and (.*)$")
+    public void userFillInvalidUsernameAndPassword(String username, String password) {
+        driver.findElement(By.name("user-name")).sendKeys(username);
+        driver.findElement(By.name("password")).sendKeys(password);
+    }
+
+    @Then("^User get verify login (.*)$")
+    public void userGetVerifyLoginResultTdd(String result) {
+        //Set duration
+        Duration duration = Duration.ofSeconds(10);
+        WebDriverWait wait = new WebDriverWait(driver, duration);
+        if (result == "Passed") {
+            wait.until(
+                    ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class='title'][contains(text(),'Products')]"))
+            );
+        } else if (result == "Failed") {
+            wait.until(
+                    ExpectedConditions.visibilityOfElementLocated(By.className("error-button"))
+            );
+        }
+        //Set Quit
+        driver.quit();
+    }
 }
