@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0eae84c6-60e2-4a9a-8fcc-44f020355cb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/LoginTdd.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StepDef/Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StepDef/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StepDef/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/env_target.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/env_target.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/runner/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runner/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/LoginTdd.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LoginTdd.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/parabankRegist.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/parabankRegist.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +35,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2TbhIJoB4pQAZkm1Oxi5XE0zvKf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,11 +57,13 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\qa-project\qa-automation-java\qa-automation-java-selenium\src\main\java\StepDef" />
       <recent name="D:\qa-project\qa-automation-java\qa-automation-java-selenium\src\test\resources" />
       <recent name="D:\qa-project\qa-automation-java\qa-automation-java-selenium\src\test" />
       <recent name="D:\qa-project\qa-automation-java\qa-automation-java-selenium\src\main\resources\drivers" />
@@ -131,11 +137,17 @@
       <workItem from="1691464675008" duration="10955000" />
       <workItem from="1691548857292" duration="9238000" />
       <workItem from="1691563047772" duration="2248000" />
-      <workItem from="1691589081043" duration="1170000" />
+      <workItem from="1691589081043" duration="2325000" />
+      <workItem from="1691632087642" duration="355000" />
+      <workItem from="1691632513319" duration="11891000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

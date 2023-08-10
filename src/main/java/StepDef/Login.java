@@ -12,7 +12,7 @@ import config.env_target;
 
 import java.time.Duration;
 
-public class Login extends env_target{
+public class Login extends env_target {
     @Given("User is on login page")
     public void userIsOnLoginPage() {
         //Set driver location path
@@ -21,7 +21,7 @@ public class Login extends env_target{
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         //Set URL
-        driver.get(baseUrl);
+        driver.get(sauceDemoUrl);
         //Set duration
         Duration duration = Duration.ofSeconds(10);
         WebDriverWait wait = new WebDriverWait(driver, duration);

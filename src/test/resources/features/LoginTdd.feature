@@ -9,8 +9,8 @@ Feature: Login with TDD
     Then User get verify login <results>
 
     Examples:
-    | username | password | results |
-    | standard_user | secret_sauce | Passed |
-    | wrong_username | secret_sauce | Failed|
-    | standard_user | wrong_password | Failed |
+      | username       | password       | results |
+      | standard_user  | secret_sauce   | Passed  |
+      | wrong_username | secret_sauce   | Failed  |
+      | standard_user  | wrong_password | Failed  |
 
