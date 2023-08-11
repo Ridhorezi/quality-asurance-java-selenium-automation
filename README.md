@@ -4,5 +4,5 @@ Project QA Automation with Java Selenium and Cucumber
 @Login :
 - https://www.saucedemo.com
 
-@runner.Register :
+@Register :
 - https://parabank.parasoft.com
